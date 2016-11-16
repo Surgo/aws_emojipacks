@@ -12,5 +12,5 @@ Install and run [emojipacks](https://github.com/lambtron/emojipacks) and specify
 
 ## Update emojis
 
-- Install package to your `virtualenv`: `pip install -U -r requirements.txt`
+- Install required packages to your `virtualenv`: `pip install -U -r requirements.txt`
 - Run `python make.py`
