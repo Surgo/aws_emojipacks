@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO)
 DIST_DIR = 'emojis'
 AWS_ICON_DOWNLOAD_URL = 'https://media.amazonwebservices.com/AWS-Design/Arch-Center/17.1.19_Update/AWS_Simple_Icons_EPS-SVG_v17.1.19.zip'
 BASE_URL = 'https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/'
-IGNORED_SERVICE_GROUPS = ('General', 'SDK')
+IGNORED_SERVICE_GROUPS = ('General', 'SDKs')
 ALLOW_CHILD_SERVICES = ('Kinesis', )
 REPLACE_NAMES = {
     'ImportExportSnowball': 'Snowball',
