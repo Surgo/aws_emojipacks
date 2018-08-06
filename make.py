@@ -20,10 +20,10 @@ logging.basicConfig(level=logging.INFO)
 
 
 DIST_DIR = 'emojis'
-AWS_ICON_DOWNLOAD_URL = 'https://media.amazonwebservices.com/AWS-Design/Arch-Center/17.1.19_Update/AWS_Simple_Icons_EPS-SVG_v17.1.19.zip'
+AWS_ICON_DOWNLOAD_URL = 'https://s3-us-west-2.amazonaws.com/awswebanddesign/Architecture+Icons/AWS-Arch-Icon-Sets_Feb-18/PNG%2C+SVG%2C+EPS_18.02.22.zip'
 BASE_URL = 'https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/'
 IGNORED_SERVICE_GROUPS = ('General', 'SDKs')
-ALLOW_CHILD_SERVICES = ('Kinesis', )
+ALLOW_CHILD_SERVICES = ('ACM', 'Kinesis', 'Lambda', 'VPC')
 REPLACE_NAMES = {
     'ImportExportSnowball': 'Snowball',
     'ElasticLoadBalancing': 'ELB',
@@ -59,6 +59,9 @@ def get_friendly_name_from_filename(path):
         if name_parts[0] not in ALLOW_CHILD_SERVICES:
             return None
         friendly_name = name_parts[-1]
+
+    if friendly_name.lower().endswith('large'):
+        return None
 
     if friendly_name in REPLACE_NAMES:
         friendly_name = REPLACE_NAMES[friendly_name]

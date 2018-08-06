@@ -1,4 +1,12 @@
 emojis:
+- name: lex
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lex.png
+- name: machinelearning
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/machinelearning.png
+- name: polly
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/polly.png
+- name: rekognition
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/rekognition.png
 - name: athena
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/athena.png
 - name: cloudsearch
@@ -11,8 +19,6 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/es.png
 - name: kinesis
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/kinesis.png
-- name: large
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/large.png
 - name: kinesisanalytics
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/kinesisanalytics.png
 - name: kinesisfirehose
@@ -25,24 +31,18 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/redshift.png
 - name: datapipeline
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/datapipeline.png
+- name: glue
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/glue.png
 - name: apigateway
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/apigateway.png
-- name: appstream
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/appstream.png
 - name: elastictranscoder
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elastictranscoder.png
 - name: swf
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/swf.png
 - name: stepfunctions
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/stepfunctions.png
-- name: lex
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lex.png
-- name: machinelearning
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/machinelearning.png
-- name: polly
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/polly.png
-- name: rekognition
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/rekognition.png
+- name: chime
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/chime.png
 - name: workdocs
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/workdocs.png
 - name: workmail
@@ -57,16 +57,46 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lightsail.png
 - name: vpc
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/vpc.png
+- name: customergateway
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/customergateway.png
+- name: elasticnetworkadapter
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elasticnetworkadapter.png
+- name: elasticnetworkinterface
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elasticnetworkinterface.png
+- name: endpoints
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/endpoints.png
+- name: flowlogs
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/flowlogs.png
+- name: internetgateway
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/internetgateway.png
+- name: networkaccesscontrollist
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/networkaccesscontrollist.png
+- name: router
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/router.png
+- name: vpcnatgateway
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/vpcnatgateway.png
+- name: vpcpeering
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/vpcpeering.png
+- name: vpnconnection
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/vpnconnection.png
+- name: vpngateway
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/vpngateway.png
 - name: batch
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/batch.png
 - name: elasticbeanstalk
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elasticbeanstalk.png
 - name: lambda
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lambda.png
+- name: lambdafunction
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lambdafunction.png
 - name: elb
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elb.png
+- name: connect
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/connect.png
 - name: dynamodb
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/dynamodb.png
+- name: dynamodbaccelerator
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/dynamodbaccelerator.png
 - name: elasticcache
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/elasticcache.png
 - name: rds
@@ -85,32 +115,18 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/codedeploy.png
 - name: codepipeline
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/codepipeline.png
+- name: codestar
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/codestar.png
 - name: x-ray
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/x-ray.png
 - name: gamelift
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/gamelift.png
-- name: alexaskill
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/alexaskill.png
-- name: alexasmarthomeskill
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/alexasmarthomeskill.png
-- name: alexavoiceservice
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/alexavoiceservice.png
-- name: avsenableddevice
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/avsenableddevice.png
-- name: greengrass
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/greengrass.png
 - name: iot
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/iot.png
-- name: echo
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/echo.png
-- name: firetv
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/firetv.png
-- name: firetvstick
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/firetvstick.png
-- name: lambdafunction
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/lambdafunction.png
 - name: cloudwatch
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/cloudwatch.png
+- name: ec2systemsmanager
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/ec2systemsmanager.png
 - name: cloudformation
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/cloudformation.png
 - name: cloudtrail
@@ -135,6 +151,8 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/sqs.png
 - name: applicationdiscoveryservice
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/applicationdiscoveryservice.png
+- name: migrationhub
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/migrationhub.png
 - name: sms
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/sms.png
 - name: snowball
@@ -155,14 +173,22 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/directconnect.png
 - name: mechanicalturk
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/mechanicalturk.png
-- name: inspector
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/inspector.png
-- name: artifact
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/artifact.png
 - name: certificatemanager
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/certificatemanager.png
+- name: clouddirectory
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/clouddirectory.png
+- name: inspector
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/inspector.png
+- name: macie
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/macie.png
+- name: artifact
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/artifact.png
 - name: cloudhsm
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/cloudhsm.png
+- name: directoryservice
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/directoryservice.png
+- name: iam
+  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/iam.png
 - name: kms
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/kms.png
 - name: organizations
@@ -171,8 +197,6 @@ emojis:
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/shield.png
 - name: waf
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/waf.png
-- name: iam
-  src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/iam.png
 - name: ebs
   src: https://raw.githubusercontent.com/Surgo/aws_emojipacks/master/emojis/ebs.png
 - name: efs
